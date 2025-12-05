@@ -9,7 +9,7 @@
     "restart": "pm2 restart MALINDU AI BOT"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^7.00",        
+    "@whiskeysockets/baileys": "^7.0.0",        
     "qrcode": "^1.5.4",                        
     "awesome-phonenumber": "^7.6.0",            
     "pino": "^10.1.0",
