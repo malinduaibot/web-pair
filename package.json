@@ -9,13 +9,13 @@
     "restart": "pm2 restart MALINDU AI BOT"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.19",        // latest release :contentReference[oaicite:0]{index=0}
-    "qrcode": "^1.5.4",                         // latest qrcode version :contentReference[oaicite:1]{index=1}
-    "awesome-phonenumber": "^7.6.0",            // latest version as per npm listing :contentReference[oaicite:2]{index=2}
+    "@whiskeysockets/baileys": "^6.7.19",        
+    "qrcode": "^1.5.4",                        
+    "awesome-phonenumber": "^7.6.0",            
     "pino": "latest",
     "phone": "3.1.30",
     "body-parser": "latest",
-    "express": "^5.2.1",                        // latest express version :contentReference[oaicite:3]{index=3}
+    "express": "^5.2.1",                        
     "path": "^0.12.7",
     "megajs": "^1.1.0",
     "pm2": "latest"
