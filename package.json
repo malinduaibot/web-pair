@@ -1,23 +1,23 @@
 {
-"name": "web-pair",
-    "version": "0.0.1",
-    "description": "A multi functional whatsapp bot Web paircode.",
-    "main": "index.js",
-    "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name DANUWA-MD",
-      "stop": "pm2 stop DANUWA-MD",
-     "restart": "pm2 restart DANUWA-MD"
-    },
+  "name": "web-pair",
+  "version": "0.0.1",
+  "description": "A multi functional whatsapp bot Web paircode.",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name MALINDU AI BOT",
+    "stop": "pm2 stop MALINDU AI BOT",
+    "restart": "pm2 restart MALINDU AI BOT"
+  },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.17",
-    "qrcode": "^1.5.3",
-    "awesome-phonenumber": "^2.64.0",
-    "pino": "^8.1.0",
-    "phone" : "3.1.30",
-    "body-parser": "^1.20.1",
-    "express": "^4.18.1",
+    "@whiskeysockets/baileys": "^6.7.19",        // latest release :contentReference[oaicite:0]{index=0}
+    "qrcode": "^1.5.4",                         // latest qrcode version :contentReference[oaicite:1]{index=1}
+    "awesome-phonenumber": "^7.6.0",            // latest version as per npm listing :contentReference[oaicite:2]{index=2}
+    "pino": "latest",
+    "phone": "3.1.30",
+    "body-parser": "latest",
+    "express": "^5.2.1",                        // latest express version :contentReference[oaicite:3]{index=3}
     "path": "^0.12.7",
     "megajs": "^1.1.0",
-    "pm2": "^5.2.0"
-   }
+    "pm2": "latest"
+  }
 }
